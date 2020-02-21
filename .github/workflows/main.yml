@@ -36,7 +36,7 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: 'build/${{ matrix.arch_name }}/install/bin/hello_cmake'
-          asset_name: 'mavsdk_server_${{ matrix.arch_name }}'
+          asset_name: 'hello_cmake_${{ matrix.arch_name }}'
           tag: ${{ github.ref }}
           overwrite: true
 
