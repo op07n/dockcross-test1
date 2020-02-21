@@ -13,7 +13,6 @@ on:
 
 jobs:
 
-
   dockcross-linux:
     name: ${{ matrix.arch_name }}
     runs-on: ubuntu-18.04
